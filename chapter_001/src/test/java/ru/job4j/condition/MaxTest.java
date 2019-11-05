@@ -12,4 +12,22 @@ public class MaxTest {
         int result = Max.max(1, 2);
         assertThat(result, is(2));
     }
+
+    @Test
+    public void Check_calculation_max_function_2() {
+        int result = Max.max(-1, -2);
+        assertThat(result, is(-1));
+    }
+
+    @Test
+    public void Check_calculation_max_function_3() {
+        int result = Max.max(-1, 0);
+        assertThat(result, is(0));
+    }
+
+    @Test
+    public void Check_calculation_max_function_4() {
+        int result = Max.max(-1, 3);
+        assertThat(result, is(3));
+    }
 }
