@@ -1,4 +1,5 @@
-package main.java.ru.job4j.loop;
+package test.java.ru.job4j.condition;
+import main.java.ru.job4j.loop.Fitness;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.is;

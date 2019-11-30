@@ -2,18 +2,18 @@ package main.java.ru.job4j.loop;
 
 public class PrimeNumber {
     public int calc(int finish) {
-        int count = 1;
-//        int check=0;
+        int count = 0;
 
-        for (int i=2;i<=finish;i++)
+        CheckPrimeNumber check = new CheckPrimeNumber();
+
+        for (int i=finish;i>1;i--)
         {
 
-            for (int i1=2;i1<i;i1++)
-            {
-                if (i%i1==0) break;
-                if (i1==i-1) count++;
-            }
+            if(check.check(i)) {
 
+                count++;
+
+            }
 
         }
 
