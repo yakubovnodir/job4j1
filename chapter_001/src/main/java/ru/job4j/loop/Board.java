@@ -18,10 +18,13 @@ public class Board {
     }
 
     public static void main(String[] args) {
-        paint(5, 5);
-        System.out.println();
-        paint(4, 4);
-        System.out.println();
-        paint(14, 4);
+//        paint(5, 5);
+//        System.out.println();
+//        paint(4, 4);
+//        System.out.println();
+//        paint(14, 4);
+
+
+
     }
 }
