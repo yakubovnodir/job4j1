@@ -39,7 +39,7 @@ public class FindLoopTest1 {
         int value = 2;
         int start = 2;
         int finish = 4;
-        int result = FindLoop.indexOf(input, value, start, finish);
+        int result = FindLoop1.indexOf(input, value, start, finish);
         int expect = 3;
         assertThat(result, is(expect));
     }
